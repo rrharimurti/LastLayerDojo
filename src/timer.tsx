@@ -118,7 +118,7 @@ const Timer = (props: {signedIn: boolean; user: string;}) => {
     const [keyHeld, setKeyHeld] = useState(false);
 
     // How Long the spacebar is Held
-    const [heldDuration, setHeldDuration] = useState(0);
+    const [_heldDuration, setHeldDuration] = useState(0);
 
     // Whether or not the timer can start (turns from red to green)
     const [canStart, setCanStart] = useState(true);
