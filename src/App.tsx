@@ -9,7 +9,7 @@ import axios from 'axios';
 import { Route, Routes, BrowserRouter } from 'react-router-dom'
 
 // API URL
-axios.defaults.baseURL = "http://localhost:5174";
+axios.defaults.baseURL = "https://lastlayerdojoapi-rasya-harimurtis-projects.vercel.app/";
 
 function App() {
 
