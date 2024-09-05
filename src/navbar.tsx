@@ -188,7 +188,7 @@ const Navbar = (props: { signedIn: boolean, user: string, onSignIn: (user: strin
         const signAccountIn = async () => {
             try {
                 const res = await axios.get(`/users/${usernameText.trim()}`)
-
+                console.log(res)
                 // This Time, isTaken needs to be true to Sign In (The Username should already Exist)
                 isTaken = (res.data.length != 0)
 
