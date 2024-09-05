@@ -9,7 +9,7 @@ import axios from 'axios';
 import { Route, Routes, BrowserRouter } from 'react-router-dom'
 
 // API URL
-axios.defaults.baseURL = process.env.API;
+axios.defaults.baseURL = import.meta.env.VITE_API;
 
 // Allow sending credentials for CORS
 axios.defaults.withCredentials = true;
