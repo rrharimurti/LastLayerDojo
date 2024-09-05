@@ -11,6 +11,9 @@ import { Route, Routes, BrowserRouter } from 'react-router-dom'
 // API URL
 axios.defaults.baseURL = process.env.API;
 
+// Allow sending credentials for CORS
+axios.defaults.withCredentials = true;
+
 function App() {
 
   // User defaults to "" when signed out
