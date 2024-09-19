@@ -298,7 +298,7 @@ const Timer = (props: {signedIn: boolean; user: string;}) => {
     }
 
     return (
-        <div className="container-fluid bg-dark text-white py-5">
+        <div className="container-fluid bg-dark text-white min-vh-100 py-5">
             <div className="row text-left px-5">
                 <p className="lead">Select an Algorithm:</p>
             </div>
