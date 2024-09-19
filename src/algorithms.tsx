@@ -154,7 +154,7 @@ const Algorithms = (props: {TrueForOLL: boolean, user: string}) => {
     }
     return (
         <>
-            <div className="container-fluid text-left bg-dark text-white">
+            <div className="container-fluid text-left bg-dark min-vh-100 text-white">
                 <div className="row">
                     <h1 className="p-5">{TrueForOLL ? "My OLL Algorithms" : "My PLL algorithms"}</h1>
                 </div>
